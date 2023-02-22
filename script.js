@@ -9,7 +9,7 @@ for(var i = 0; i < 10; i++){
 var load = function(){
 	for(var i = 0; i < 2; i++){
 		var item = document.createElement('li');
-		item.ineerText = 'Item' + next++;
+		item.innerText = 'Item' + next++;
 		listEle.appendChild(item);
 	}
 }
