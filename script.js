@@ -15,7 +15,7 @@ var load = function(){
 }
 
 listEle.addEventListener('scroll', function(){
-	if(listEle.scrollTop + listEle.clientHeight >= listEle.scrollHeight){
+	if(Math.ceil(listEle.scrollTop + listEle.clientHeight) >= listEle.scrollHeight){
 		load();
 	}
 });
